@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- TITLE -->
+    <title>CSS Custom Propeerties | Cascade</title>
+    <style>
+      html {
+        --base-color: red;
+      }
+      aside {
+        --base-color: blue;
+      }
+
+      h1 {
+        color: var(--base-color);
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Heading 1</h1>
+    <p>Main text.</p>
+
+    <aside>
+      <h1>Heading 1</h1>
+      <p>An aside.</p>
+    </aside>
+
+    <h1>Heading 1</h1>
+    <p>Main text.</p>
+
+    <h2>EXPLANATION</h2>
+  </body>
+</html>
